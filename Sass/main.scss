@@ -1,8 +1,8 @@
 @import "./_Utils/variables",
 "./_Utils/mixins",
 "./_Utils/maps";
-@import "./_Base/general.scss";
-@import "./_Composants/";
+@import "./_Base/general";
+@import "./_Composants/map";
 @import "./_Layout/header",
 "./_Layout/fonctionnement",
 "./_Layout/restaurants",
