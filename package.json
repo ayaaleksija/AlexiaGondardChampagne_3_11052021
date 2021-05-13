@@ -1,0 +1,19 @@
+{
+    "name": "alexiagondardchampagne_3_11052021",
+    "version": "1.0.0",
+    "description": "projet 3 openclassrooms - OHMYFOOD",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ayaaleksija/AlexiaGondardChampagne_3_11052021.git"
+    },
+    "author": "Alexia Gondard-Champagne",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ayaaleksija/AlexiaGondardChampagne_3_11052021/issues"
+    },
+    "homepage": "https://github.com/ayaaleksija/AlexiaGondardChampagne_3_11052021#readme"
+}
