@@ -1,17 +1,39 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 | @import "./_Composants/";
- *   |         ^^^^^^^^^^^^^^^^
- *   '
- *   sass/main.scss 5:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import \"./_Composants/\";\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   sass/main.scss 5:9  root stylesheet";
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.map {
+  background-color: #dcdcdc;
+  box-shadow: inset 0px 3px 3px 0px #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.map__search input {
+  background-color: #DCDCDC;
+  font-size: 20px;
+  border: none;
+}
+
+.header__logo {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
