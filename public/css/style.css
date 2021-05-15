@@ -28,11 +28,12 @@ li {
 
 .map__search input {
   background-color: #DCDCDC;
-  font-size: 20px;
+  font-size: 15px;
   border: none;
+  text-align: center;
 }
 
-.header__logo {
+header {
   text-align: center;
 }
 
