@@ -50,7 +50,7 @@ header {
 .exploration {
   background-color: #F5F5F5;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
 }
 .exploration h2 {
   font-weight: 900;
@@ -58,6 +58,19 @@ header {
 .exploration p {
   color: #696969;
   font-weight: 100;
+}
+
+.fonctionnement__niveau li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 5px;
+  margin: 15px 20px 15px 30px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  background-color: #f5f5f5;
 }
 
 /*# sourceMappingURL=style.css.map */
