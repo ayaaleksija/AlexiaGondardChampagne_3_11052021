@@ -17,6 +17,10 @@ li {
   list-style-type: none;
 }
 
+.btn__exploration button {
+  background-color: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+}
+
 .map {
   background-color: #dcdcdc;
   box-shadow: inset 0px 3px 3px 0px #C0C0C0;
@@ -35,6 +39,19 @@ li {
 
 header {
   text-align: center;
+}
+
+.exploration {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 20px;
+}
+.exploration h2 {
+  font-weight: 900;
+}
+.exploration p {
+  color: #696969;
+  font-weight: 100;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,3 +10,7 @@
     text-align: center;
     padding: 20px;
 }
+
+@mixin btn__exploration {
+    background-color: $linear-gradient;
+}
