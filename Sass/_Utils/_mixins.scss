@@ -14,7 +14,9 @@
 @mixin btn__exploration {
     background-image: $linear-gradient;
     color: white;
+    font-weight: 700;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+    border: none;
 }

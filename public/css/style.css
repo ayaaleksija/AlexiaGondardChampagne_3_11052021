@@ -18,7 +18,13 @@ li {
 }
 
 .btn__exploration button {
-  background-color: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  color: white;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 12px 20px;
+  box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+  border: none;
 }
 
 .map {
@@ -44,7 +50,7 @@ header {
 .exploration {
   background-color: #F5F5F5;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
 .exploration h2 {
   font-weight: 900;
