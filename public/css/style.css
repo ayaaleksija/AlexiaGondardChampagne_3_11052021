@@ -33,7 +33,7 @@ li {
   border: 5px solid #99E2D0;
   color: green;
   position: absolute;
-  top: 1%;
+  top: 3%;
   left: 80%;
 }
 
@@ -137,6 +137,10 @@ header {
 
 figure {
   margin: 0;
+}
+
+figcaption {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
