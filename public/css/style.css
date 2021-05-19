@@ -135,12 +135,16 @@ header {
   border-top-right-radius: 20px;
 }
 
-figure {
+.fiche figure {
   margin: 0;
 }
 
-figcaption {
-  padding: 20px;
+.fiche figcaption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

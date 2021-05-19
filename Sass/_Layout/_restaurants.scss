@@ -12,10 +12,10 @@
     @include fiche__img;
 }
 
-figure {
+.fiche figure {
     @include figure;
 }
 
-figcaption {
+.fiche figcaption {
     @include figcaption;
 }
