@@ -30,11 +30,11 @@ li {
 .nouveau {
   background-color: #99E2D0;
   border-radius: 5px;
-  border: 5px solid #99E2D0;
+  border: 7px solid #99E2D0;
   color: green;
   position: absolute;
   top: 3%;
-  left: 80%;
+  left: 70%;
 }
 
 .map {
@@ -78,7 +78,7 @@ header img {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  margin-right: 30px;
+  margin: 20px;
 }
 .fonctionnement__niveau ul {
   list-style-position: inside;
@@ -107,6 +107,9 @@ header img {
   height: 30px;
   padding: 7px;
   margin-left: -150px;
+}
+.fonctionnement ul {
+  padding: 0;
 }
 .fonctionnement p {
   margin-left: 20px;
@@ -149,6 +152,20 @@ header img {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 10px;
+}
+
+footer {
+  background-color: #414040;
+  color: white;
+  padding: 20px;
+}
+footer h2 {
+  font-family: "Shrikhand", "sans-serif";
+  font-size: 20px;
+}
+footer ul {
+  font-family: "Roboto", "sans-serif";
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
