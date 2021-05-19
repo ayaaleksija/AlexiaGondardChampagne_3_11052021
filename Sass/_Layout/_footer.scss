@@ -8,6 +8,18 @@ footer {
     }
     ul {
         font-family: "Roboto", "sans-serif";
-        padding: 0;
+        padding: 5px 0 5px 0;
+        li {
+            padding: 5px 0 5px 0;
+            a {
+                color: white;
+            }
+        }
+    }
+    .fa-hands-helping {
+        margin-right: 10px;
+    }
+    .fa-utensils {
+        margin-right: 15px;
     }
 }

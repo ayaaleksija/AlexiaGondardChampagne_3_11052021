@@ -1,5 +1,8 @@
 .fonctionnement {
     @include fonctionnement;
+    ul {
+        padding: 0;
+    }
     p {
         margin-left: 20px;
     }
