@@ -1,0 +1,9 @@
+.restaurant {
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.fiche {
+    @include fiche;
+}

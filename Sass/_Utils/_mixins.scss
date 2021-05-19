@@ -24,28 +24,44 @@
 @mixin fonctionnement {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    margin-right: 30px;
+    &__niveau ul {
+        list-style-position: inside;
+        padding-left: 0;
+        margin: 0;
+    }
     &__niveau li {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
         align-items: center;
+        justify-content: center;
         flex-wrap: nowrap;
-        padding: 5px;
-        margin: 20px;
         border-radius: 20px;
         box-shadow: 1px 2px 8px 2px #C0C0C0;
         background-color: #F5F5F5;
+        margin: 20px 0 20px;
+    }
+    &__niveau--compteur {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #9356dc;
+        color: white;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        padding: 7px;
+        margin-left: -150px;
     }
 }
 
-@mixin fonctionnement__niveau {
-    background-color: $color-primary;
-    color: white;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    padding: 10px;
-    margin-left: -20px;
+@mixin fiche {
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px 2px #C0C0C0;
+    position: relative;
+    background: white;
+    margin: 20px;
 }
+
+@mixin btn__fiche {}

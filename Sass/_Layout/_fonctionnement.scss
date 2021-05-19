@@ -1,4 +1,10 @@
 .fonctionnement {
     @include fonctionnement;
-    @include fonctionnement__niveau;
+    p {
+        margin-left: 20px;
+    }
+    .fas {
+        margin-left: 20px;
+        color: grey;
+    }
 }
