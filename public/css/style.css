@@ -60,6 +60,19 @@ header {
   font-weight: 100;
 }
 
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  background-color: #9356DC;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  margin-left: -20px;
+}
 .fonctionnement__niveau li {
   display: flex;
   flex-direction: row;
@@ -67,10 +80,10 @@ header {
   align-items: center;
   flex-wrap: nowrap;
   padding: 5px;
-  margin: 15px 20px 15px 30px;
+  margin: 20px;
   border-radius: 20px;
-  box-shadow: 1px 2px 8px 2px #c4c4c4;
-  background-color: #f5f5f5;
+  box-shadow: 1px 2px 8px 2px #C0C0C0;
+  background-color: #F5F5F5;
 }
 
 /*# sourceMappingURL=style.css.map */

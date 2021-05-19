@@ -1,3 +1,4 @@
 .fonctionnement {
-    @include fonctionnement
+    @include fonctionnement;
+    @include fonctionnement__niveau;
 }
