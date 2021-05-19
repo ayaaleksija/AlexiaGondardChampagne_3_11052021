@@ -54,11 +54,19 @@ li {
 }
 
 header {
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 header img {
   width: 60%;
+}
+
+.arrow {
+  position: absolute;
+  top: 8%;
+  left: 15px;
 }
 
 .exploration {
@@ -165,7 +173,19 @@ footer h2 {
 }
 footer ul {
   font-family: "Roboto", "sans-serif";
-  padding: 0;
+  padding: 5px 0 5px 0;
+}
+footer ul li {
+  padding: 5px 0 5px 0;
+}
+footer ul li a {
+  color: white;
+}
+footer .fa-hands-helping {
+  margin-right: 10px;
+}
+footer .fa-utensils {
+  margin-right: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
