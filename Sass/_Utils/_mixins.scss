@@ -70,7 +70,7 @@
     border: 5px solid $color-tertiary;
     color: green;
     position: absolute;
-    top: 1%;
+    top: 3%;
     left: 80%;
 }
 
@@ -85,4 +85,8 @@
 
 @mixin figure {
     margin: 0;
+}
+
+@mixin figcaption {
+    padding: 20px;
 }
