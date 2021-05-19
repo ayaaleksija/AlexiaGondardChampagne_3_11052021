@@ -8,11 +8,12 @@
     src: url(Polices/shrikhand/Shrikhand-Regular.otf);
 }
 
-h1 {
-    font-family: Shrikhand, Roboto, sans-serif;
+h1,
+h2 {
+    font-family: "Shrikhand", sans-serif;
 }
 
 body,
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
