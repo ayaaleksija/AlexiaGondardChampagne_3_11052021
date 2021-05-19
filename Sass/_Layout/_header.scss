@@ -1,7 +1,15 @@
 header {
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 header img {
     width: 60%;
+}
+
+.arrow {
+    position: absolute;
+    top: 8%;
+    left: 15px;
 }
