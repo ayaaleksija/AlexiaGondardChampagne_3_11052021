@@ -7,3 +7,11 @@
 .fiche {
     @include fiche;
 }
+
+.fiche img {
+    @include fiche__img;
+}
+
+figure {
+    @include figure;
+}
