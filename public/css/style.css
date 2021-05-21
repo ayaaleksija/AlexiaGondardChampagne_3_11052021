@@ -221,7 +221,7 @@ footer .fa-utensils {
   background-color: white;
   border-radius: 20px;
   margin: 20px;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 1px 2px 8px 2px #C0C0C0;
   position: relative;
   cursor: pointer;
@@ -242,6 +242,7 @@ footer .fa-utensils {
 }
 .dish h4 {
   margin: 0;
+  padding-top: 5px;
 }
 .dish__garnishandprice {
   display: flex;
