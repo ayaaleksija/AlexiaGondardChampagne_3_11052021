@@ -23,8 +23,7 @@
 
 @mixin fonctionnement {
     display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    flex-wrap: wrap;
     margin: 20px;
     &__niveau ul {
         list-style-position: inside;
@@ -51,8 +50,8 @@
         border-radius: 100%;
         width: 30px;
         height: 30px;
-        padding: 7px;
-        margin-left: -150px;
+        position: relative;
+        left: -20px;
     }
 }
 
@@ -152,5 +151,17 @@
     & .fa-check-circle {
         color: #fff;
         transition: transform 500ms ease-in-out;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: map-get($breakpoints, tablet)) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+        @content;
     }
 }

@@ -84,9 +84,15 @@ header img {
 
 .fonctionnement {
   display: flex;
-  flex-direction: column;
-  max-width: 100%;
+  flex-wrap: wrap;
   margin: 20px;
+}
+@media screen and (min-width: 1440px) {
+  .fonctionnement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .fonctionnement__niveau ul {
   list-style-position: inside;
@@ -113,17 +119,17 @@ header img {
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  padding: 7px;
-  margin-left: -150px;
+  position: relative;
+  left: -20px;
 }
 .fonctionnement ul {
   padding: 0;
 }
 .fonctionnement p {
   margin-left: 20px;
+  margin-right: 50px;
 }
 .fonctionnement .fas {
-  margin-left: 20px;
   color: grey;
 }
 
