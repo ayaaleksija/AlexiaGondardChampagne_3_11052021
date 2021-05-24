@@ -1,5 +1,8 @@
 .fonctionnement {
     @include fonctionnement;
+    h2 {
+        align-items: flex-start;
+    }
     ul {
         padding: 0;
     }
