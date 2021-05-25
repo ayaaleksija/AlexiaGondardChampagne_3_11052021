@@ -120,6 +120,12 @@ header img {
 .fonctionnement ul {
   padding: 0;
 }
+@media screen and (min-width: 768px) {
+  .fonctionnement ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .fonctionnement p {
   margin-left: 20px;
   margin-right: 50px;
@@ -130,6 +136,16 @@ header img {
 
 .restaurant {
   background: #F5F5F5;
+  padding: 20px;
+}
+.restaurant h2 {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .restaurant {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .fiche {
@@ -138,6 +154,16 @@ header img {
   position: relative;
   background: white;
   margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  .fiche {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fiche {
+    width: 45%;
+  }
 }
 
 .fiche img {

@@ -1,9 +1,23 @@
 .restaurant {
     background: #F5F5F5;
+    padding: 20px;
+    h2 {
+        width: 100%;
+    }
+    @include tablet {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .fiche {
     @include fiche;
+    @include tablet {
+        width: 30%;
+    }
+    @include desktop {
+        width: 45%;
+    }
 }
 
 .fiche img {

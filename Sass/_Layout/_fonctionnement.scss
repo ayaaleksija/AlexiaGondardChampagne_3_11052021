@@ -4,6 +4,10 @@
         align-items: flex-start;
     }
     ul {
+        @include tablet {
+            display: flex;
+            justify-content: space-around;
+        }
         padding: 0;
     }
     p {
