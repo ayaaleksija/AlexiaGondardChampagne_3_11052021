@@ -12,6 +12,13 @@
     @include menu__title;
 }
 
+.menu__full {
+    @include tablet {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 .starter__title,
 .maindish__title,
 .dessert__title {
