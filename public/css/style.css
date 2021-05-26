@@ -17,14 +17,36 @@ li {
   list-style-type: none;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url(Polices/roboto/Roboto-Regular.ttf), url(Polices/roboto/Roboto-Medium.ttf), url(Polices/roboto/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "Shrikhand";
+  src: url(Polices/shrikhand/Shrikhand-Regular.otf);
+}
+h1,
+h2 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .btn__exploration button {
   background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   color: white;
   font-weight: 700;
-  border-radius: 20px;
   padding: 12px 20px;
-  box-shadow: inset 0px 0px 1px 0px #C0C0C0;
   border: none;
+  box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+  border-radius: 20px;
+}
+
+.btn__fiche {
+  position: relative;
 }
 
 .nouveau {
@@ -32,9 +54,9 @@ li {
   border-radius: 5px;
   border: 7px solid #99E2D0;
   color: green;
+  margin-top: 10px;
   position: absolute;
-  top: 3%;
-  left: 73%;
+  left: 60%;
 }
 
 .map {
@@ -97,10 +119,9 @@ header img {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  border-radius: 20px;
-  box-shadow: 1px 2px 8px 2px #C0C0C0;
   background-color: #F5F5F5;
   margin: 20px 0 20px;
+  position: relative;
 }
 .fonctionnement__niveau--compteur {
   display: flex;
@@ -111,8 +132,8 @@ header img {
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  position: relative;
-  left: -20px;
+  position: absolute;
+  left: -10px;
 }
 .fonctionnement h2 {
   align-items: flex-start;
@@ -125,6 +146,10 @@ header img {
     display: flex;
     justify-content: space-around;
   }
+}
+.fonctionnement ul li {
+  box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+  border-radius: 20px;
 }
 .fonctionnement p {
   margin-left: 20px;
@@ -150,11 +175,11 @@ header img {
 }
 
 .fiche {
-  border-radius: 20px;
-  box-shadow: 1px 2px 8px 2px #C0C0C0;
   position: relative;
   background: white;
   margin: 20px;
+  box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+  border-radius: 20px;
 }
 @media screen and (min-width: 768px) {
   .fiche {
@@ -181,11 +206,17 @@ header img {
 }
 
 .fiche figcaption {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-left: 10px;
+  position: relative;
+  padding: 10px;
+}
+.fiche figcaption h3,
+.fiche figcaption p {
+  margin: 5px;
+}
+.fiche figcaption .fa-heart {
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
 }
 
 footer {
@@ -194,11 +225,9 @@ footer {
   padding: 20px;
 }
 footer h2 {
-  font-family: "Shrikhand", "sans-serif";
   font-size: 20px;
 }
 footer ul {
-  font-family: "Roboto", "sans-serif";
   padding: 5px 0 5px 0;
 }
 footer ul li {
@@ -226,6 +255,7 @@ footer .fa-utensils {
   border-top-left-radius: 30px;
   position: relative;
   top: -29px;
+  padding: 20px;
 }
 
 .menu__title {
@@ -252,16 +282,16 @@ footer .fa-utensils {
 
 .dish {
   background-color: white;
-  border-radius: 20px;
   margin: 20px;
   padding: 10px;
-  box-shadow: 1px 2px 8px 2px #C0C0C0;
   position: relative;
   cursor: pointer;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   transition: padding-right 450ms ease-in-out;
+  box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+  border-radius: 20px;
 }
 .dish:hover {
   padding-right: 75px;
