@@ -1,3 +1,7 @@
+.btn__fiche {
+    position: relative;
+}
+
 .nouveau {
     @include btn__fiche;
 }

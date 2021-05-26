@@ -1,3 +1,8 @@
+@mixin shadow-radius {
+    box-shadow: inset 0px 0px 1px 0px #C0C0C0;
+    border-radius: 20px;
+}
+
 @mixin map {
     background-color: #DCDCDC;
     font-size: 15px;
@@ -15,9 +20,7 @@
     background-image: $linear-gradient;
     color: white;
     font-weight: 700;
-    border-radius: 20px;
     padding: 12px 20px;
-    box-shadow: inset 0px 0px 1px 0px #C0C0C0;
     border: none;
 }
 
@@ -35,10 +38,9 @@
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
-        border-radius: 20px;
-        box-shadow: 1px 2px 8px 2px #C0C0C0;
         background-color: #F5F5F5;
         margin: 20px 0 20px;
+        position: relative;
     }
     &__niveau--compteur {
         display: flex;
@@ -49,14 +51,12 @@
         border-radius: 100%;
         width: 30px;
         height: 30px;
-        position: relative;
-        left: -20px;
+        position: absolute;
+        left: -10px;
     }
 }
 
 @mixin fiche {
-    border-radius: 20px;
-    box-shadow: 1px 2px 8px 2px #C0C0C0;
     position: relative;
     background: white;
     margin: 20px;
@@ -67,9 +67,9 @@
     border-radius: 5px;
     border: 7px solid $color-tertiary;
     color: green;
+    margin-top: 10px;
     position: absolute;
-    top: 3%;
-    left: 73%;
+    left: 65%;
 }
 
 @mixin fiche__img {
@@ -79,18 +79,6 @@
     max-height: 250px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
-
-@mixin figure {
-    margin: 0;
-}
-
-@mixin figcaption {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-left: 10px;
 }
 
 @mixin menu {
@@ -110,10 +98,8 @@
 
 @mixin dish {
     background-color: white;
-    border-radius: 20px;
     margin: 20px;
     padding: 10px;
-    box-shadow: 1px 2px 8px 2px #C0C0C0;
     position: relative;
     cursor: pointer;
     white-space: nowrap;

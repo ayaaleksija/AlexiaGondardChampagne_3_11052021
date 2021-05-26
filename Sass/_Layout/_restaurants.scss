@@ -13,6 +13,7 @@
 
 .fiche {
     @include fiche;
+    @include shadow-radius;
     @include tablet {
         width: 30%;
     }
@@ -26,9 +27,19 @@
 }
 
 .fiche figure {
-    @include figure;
+    margin: 0;
 }
 
 .fiche figcaption {
-    @include figcaption;
+    position: relative;
+    padding: 10px;
+    & h3,
+    p {
+        margin: 5px;
+    }
+    & .fa-heart {
+        position: absolute;
+        right: 20px;
+        bottom: 25px;
+    }
 }

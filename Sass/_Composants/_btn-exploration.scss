@@ -1,3 +1,4 @@
 .btn__exploration button {
-    @include btn__exploration
+    @include btn__exploration;
+    @include shadow-radius;
 }
