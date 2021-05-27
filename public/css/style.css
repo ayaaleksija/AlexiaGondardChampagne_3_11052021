@@ -41,8 +41,16 @@ html {
   font-weight: 700;
   padding: 12px 20px;
   border: none;
+  transform: scale(1);
+  transition: transform 400ms;
   box-shadow: inset 0px 0px 1px 0px #C0C0C0;
   border-radius: 20px;
+}
+.btn__exploration button:hover {
+  background-color: #bc95e9;
+  background-blend-mode: lighten;
+  box-shadow: 4px 4px 6px #000;
+  transform: scale(1.15);
 }
 
 .btn__fiche {
@@ -56,7 +64,7 @@ html {
   color: green;
   margin-top: 10px;
   position: absolute;
-  left: 60%;
+  left: 65%;
 }
 
 .map {
@@ -249,13 +257,16 @@ footer .fa-utensils {
   height: 150px;
 }
 
+.main__menu {
+  text-align: center;
+}
+
 .menu {
   background-color: #F5F5F5;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   position: relative;
   top: -29px;
-  padding: 20px;
 }
 
 .menu__title {
@@ -304,6 +315,7 @@ footer .fa-utensils {
   transform: rotate(360deg);
 }
 .dish h4 {
+  text-align: start;
   margin: 0;
   padding-top: 5px;
 }

@@ -22,6 +22,8 @@
     font-weight: 700;
     padding: 12px 20px;
     border: none;
+    transform: scale(1);
+    transition: transform 400ms;
 }
 
 @mixin fonctionnement {
