@@ -259,6 +259,7 @@ footer .fa-utensils {
 
 .main__menu {
   text-align: center;
+  background-color: #F5F5F5;
 }
 
 .menu {
@@ -281,6 +282,18 @@ footer .fa-utensils {
     display: flex;
     justify-content: space-around;
   }
+}
+
+.starter {
+  animation: fadein 4s ease-in-out;
+}
+
+.maindish {
+  animation: fadein 4s ease-in-out;
+}
+
+.dessert {
+  animation: fadein 4s ease-in-out;
 }
 
 .starter__title--line,
