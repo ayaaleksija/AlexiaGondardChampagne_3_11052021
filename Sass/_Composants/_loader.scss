@@ -1,0 +1,40 @@
+.loader {
+    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Shrikhand;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    animation: loading 3s ease-in-out 3s forwards;
+    &__loading {
+        vertical-align: middle;
+    }
+}
+
+.loader__loading--ustensils {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}

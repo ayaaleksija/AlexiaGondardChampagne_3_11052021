@@ -11,6 +11,9 @@
         padding: 0;
         li {
             @include shadow-radius;
+            &:hover {
+                @include hover-button
+            }
         }
     }
     p {

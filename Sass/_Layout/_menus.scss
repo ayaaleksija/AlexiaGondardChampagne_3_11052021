@@ -18,7 +18,7 @@
 }
 
 .menu__full {
-    @include tablet {
+    @include desktop {
         display: flex;
         justify-content: space-around;
     }

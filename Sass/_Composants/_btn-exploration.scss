@@ -2,9 +2,6 @@
     @include btn__exploration;
     @include shadow-radius;
     &:hover {
-        background-color: lighten(#9356dc, 15%);
-        background-blend-mode: lighten;
-        box-shadow: 4px 4px 6px #000;
-        transform: scale(1.15);
+        @include hover-button;
     }
 }
