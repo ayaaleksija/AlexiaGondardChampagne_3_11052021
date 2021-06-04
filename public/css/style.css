@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -17,22 +18,15 @@ li {
   list-style-type: none;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url(Polices/roboto/Roboto-Regular.ttf), url(Polices/roboto/Roboto-Medium.ttf), url(Polices/roboto/RobotoCondensed-Bold.ttf);
-}
-@font-face {
-  font-family: "Shrikhand";
-  src: url(Polices/shrikhand/Shrikhand-Regular.otf);
-}
 h1,
-h2 {
-  font-family: "Shrikhand", sans-serif;
+h2,
+.loader {
+  font-family: "Shrikhand", "sans-serif";
 }
 
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "sans-serif";
 }
 
 .btn__exploration button {
@@ -51,6 +45,7 @@ html {
   background-blend-mode: lighten;
   box-shadow: 4px 4px 6px #000;
   transform: scale(1.15);
+  cursor: zoom-in;
 }
 
 .btn__fiche {
@@ -109,20 +104,24 @@ html {
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
   vertical-align: middle;
   font-family: Shrikhand;
-  font-size: 40px;
+  font-size: 50px;
   width: 100%;
   height: 100%;
-  animation: loading 3s ease-in-out 3s forwards;
+  line-height: 100%;
+  position: fixed;
+  z-index: 3;
+  animation: loading 300ms ease-in-out 3s forwards;
 }
 .loader__loading {
   vertical-align: middle;
 }
 
 .loader__loading--ustensils {
-  animation: rotate 1s linear infinite;
+  animation: rotate 2s linear infinite;
 }
 
 @keyframes loading {
@@ -134,6 +133,7 @@ html {
   }
   100% {
     opacity: 0;
+    z-index: 0;
   }
 }
 @keyframes rotate {
@@ -220,6 +220,12 @@ header img {
   box-shadow: inset 0px 0px 1px 0px #C0C0C0;
   border-radius: 20px;
 }
+@media screen and (min-width: 768px) {
+  .fonctionnement ul li {
+    display: flex;
+    width: 30%;
+  }
+}
 .fonctionnement ul li:hover {
   background-color: #bc95e9;
   background-blend-mode: lighten;
@@ -261,7 +267,7 @@ header img {
 }
 @media screen and (min-width: 768px) {
   .fiche {
-    width: 30%;
+    width: 40%;
   }
 }
 @media screen and (min-width: 1440px) {
