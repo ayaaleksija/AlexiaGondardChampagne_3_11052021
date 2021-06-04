@@ -10,9 +10,13 @@
         }
         padding: 0;
         li {
+            @include tablet {
+                display: flex;
+                width: 30%;
+            }
             @include shadow-radius;
             &:hover {
-                @include hover-button
+                @include hover-button;
             }
         }
     }

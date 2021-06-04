@@ -1,19 +1,11 @@
-@font-face {
-    font-family: "Roboto";
-    src: url(Polices/roboto/Roboto-Regular.ttf), url(Polices/roboto/Roboto-Medium.ttf), url(Polices/roboto/RobotoCondensed-Bold.ttf);
-}
-
-@font-face {
-    font-family: "Shrikhand";
-    src: url(Polices/shrikhand/Shrikhand-Regular.otf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 h1,
-h2 {
-    font-family: "Shrikhand", sans-serif;
+h2,
+.loader {
+    font-family: 'Shrikhand', "sans-serif";
 }
 
 body,
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', "sans-serif";
 }

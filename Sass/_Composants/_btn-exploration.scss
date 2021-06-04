@@ -3,5 +3,6 @@
     @include shadow-radius;
     &:hover {
         @include hover-button;
+        cursor: zoom-in;
     }
 }
