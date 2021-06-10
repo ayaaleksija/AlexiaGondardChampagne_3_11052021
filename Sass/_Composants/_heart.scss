@@ -1,5 +1,5 @@
 .plein:hover {
-    animation: coeur_plein 1s ease-in-out;
+    animation: coeur_plein 200ms ease-in-out;
     display: inline-block;
     opacity: 1;
     background: $linear-gradient;
@@ -11,7 +11,7 @@
 
 @keyframes coeur_plein {
     0% {
-        opacity: 0;
+        opacity: 0.2;
     }
     50% {
         opacity: 0.5;

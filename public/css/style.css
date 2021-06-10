@@ -44,9 +44,9 @@ p {
   border-radius: 20px;
 }
 .btn__exploration button:hover {
-  background-color: #bc95e9;
+  background-color: #ae80e5;
   background-blend-mode: lighten;
-  box-shadow: 4px 4px 6px #000;
+  box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1.15);
   cursor: zoom-in;
 }
@@ -82,7 +82,7 @@ p {
 }
 
 .plein:hover {
-  animation: coeur_plein 1s ease-in-out;
+  animation: coeur_plein 200ms ease-in-out;
   display: inline-block;
   opacity: 1;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -94,7 +94,7 @@ p {
 
 @keyframes coeur_plein {
   0% {
-    opacity: 0;
+    opacity: 0.2;
   }
   50% {
     opacity: 0.5;
@@ -124,7 +124,7 @@ p {
 }
 
 .loader__loading--ustensils {
-  animation: rotate 2s linear infinite;
+  animation: rotate 3s linear infinite;
 }
 
 @keyframes loading {
@@ -230,9 +230,9 @@ header img {
   }
 }
 .fonctionnement ul li:hover {
-  background-color: #bc95e9;
+  background-color: #ae80e5;
   background-blend-mode: lighten;
-  box-shadow: 4px 4px 6px #000;
+  box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1.15);
 }
 .fonctionnement p {
